@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Playpen+Sans:wght@100..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.madimi-one-regular {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.playpen-sans-regular {
+  font-family: "Playpen Sans", cursive;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,
+body {
+    height: 100vh;
+}
+
+body {
+    background-image: url("./images/background-image.svg");
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 20px;
+    background-color: rgb(49, 49, 49);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}
+
+button {
+    padding: 10px 20px;
+    border: 0px;
+    color: white;
+    background-color: rgb(252, 42, 42);
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+button:hover {
+    text-decoration: 2px dashed underline;
+    cursor: pointer;
+}
+
+div#content {
+    margin: auto;
+    width: 70vw;   
+}
+
+div#content p {
+    font-family: "Playpen Sans";
+}
+
+div#content h1 {
+    font-family: "Madimi One";
+}
+
+.hero {
+    margin: 20px 0px;
+}
+
+div.images {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+     justify-content: center;
+     margin: 20px 0px;
+}
+
+img {
+    width: 35vh;
+    border-radius: 8px;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(49, 49, 49);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer > p {
+    text-align: center;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+svg {
+    width: 25px;
+}
