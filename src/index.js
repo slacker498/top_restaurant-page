@@ -11,11 +11,13 @@ const aboutBtn = document.querySelector("#about-btn");
 
 homeBtn.addEventListener("click", () => {
     content.innerHTML = "";
+    content.style = ""; // Solution to css after effects from about.js
     generateHomeContent(content);
 });
 
 menuBtn.addEventListener("click", () => {
     content.innerHTML = "";
+    content.style = "";
     generateMenuContent(content);
 });
 

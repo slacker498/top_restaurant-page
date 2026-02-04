@@ -62,7 +62,8 @@ div#content {
     width: 70vw;   
 }
 
-div#content p {
+div#content p,
+li {
     font-family: "Playpen Sans";
 }
 
@@ -131,4 +132,42 @@ svg {
 .images div:hover {
     opacity: 0.8;
     cursor: pointer;
+}
+
+/* Styling for About Page (I know this is not an ideal practice)*/
+form {
+    width: 28vw;
+    display: grid;
+    gap: 15px;
+    background-color: rgb(49, 49, 49);
+    padding: 30px;
+    border-radius: 5px;
+
+}
+
+form label {
+    color: rgb(252, 42, 42);
+    font-family: "Playpen Sans";
+    font-weight: bold;
+}
+
+textarea {
+    height: 20vh;
+    resize: none;
+}
+
+input, textarea {
+    color: white;
+    padding: 5px;
+    font-size: 16px;
+    background-color: rgb(105, 105, 105);
+    border: 0px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+iframe {
+    width: 500px;
+    height: 300px;
+    margin-bottom: 30px;
 }
