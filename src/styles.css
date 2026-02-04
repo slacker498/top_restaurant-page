@@ -66,7 +66,8 @@ div#content p {
     font-family: "Playpen Sans";
 }
 
-div#content h1 {
+div#content h1,
+h2 {
     font-family: "Madimi One";
 }
 
@@ -80,11 +81,13 @@ div.images {
      gap: 20px;
      justify-content: center;
      margin: 20px 0px;
+     align-items: center;
 }
 
 img {
     width: 35vh;
     border-radius: 8px;
+    object-fit: contain;
 }
 
 footer {
@@ -109,4 +112,23 @@ a {
 
 svg {
     width: 25px;
+}
+
+.label {
+    padding: 10px 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(49, 49, 49);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+.images div {
+    position: relative;
+}
+
+.images div:hover {
+    opacity: 0.8;
+    cursor: pointer;
 }
